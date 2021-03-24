@@ -66,15 +66,18 @@ body {
 }
 
 .card-body-img {
+  width: 200px;
+  height: 200px;
   border: 5px solid white;
   border-radius: 50%;
-  margin-top: calc(-48px - 5px);
+  margin-top: calc(-100px - 5px);
   background-color: white;
 }
 
 .card-body-title {
   margin-top: 2rem;
   font-size: 1.8rem;
+  text-transform: capitalize;
 }
 
 .card-body-title span {
@@ -105,5 +108,16 @@ body {
 
 .card-footer-social p {
   letter-spacing: 1px;
+}
+
+.card-reload {
+  width: 200px;
+  height: 30px;
+  background: var(--dark-cyan);
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 0px;
+  margin: 0 0 10px 65px;
 }
 /*# sourceMappingURL=estilos.css.map */
